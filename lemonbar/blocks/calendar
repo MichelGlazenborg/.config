@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo -n "%{T5}\uf017%{T-} $(date "+%d %b")"
+# echo -n " $(date "+%d %B")"

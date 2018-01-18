@@ -1,0 +1,20 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "event_page_binary.js" ]
+   },
+   "description": "Chrome Remote Desktop extension",
+   "externally_connectable": {
+      "matches": [ "https://remotedesktop.google.com/*" ]
+   },
+   "icons": {
+      "128": "chromoting128.png",
+      "48": "chromoting48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvlyk9k0ERLhyN0A0m9llH8K2FoXcpH7X4RqmHwpwAiTiAXcDdFlf/a+TQGk8/v0UJpkNeARWBh4BErrdWcSk4y/Da/kJIcEyOGtZmR4y2UGAwbap36oCaNbqOv6tmgcByui3LqCSDcn1VRG87g97f0uCXuecakZ6eaXeyPW1lILO1j83F3tELdD7fAfur7unxt8dfkykj3I08PTtMyEAWG+pSrJpPi4S7l9UGEzAu/xRcKOS09gk0hB9I2kQcVV5nN5ykPKvOecSJ8I1Ca52us0UJMkmTmFJ4pMjDCK+4Jx3VKKasM4p8SuyPA3ISb9lTW/GgNqFajLH5AmcNRLAmwIDAQAB",
+   "manifest_version": 2,
+   "name": "Chrome Remote Desktop",
+   "permissions": [ "clipboardRead", "clipboardWrite", "nativeMessaging", "downloads", "downloads.open" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

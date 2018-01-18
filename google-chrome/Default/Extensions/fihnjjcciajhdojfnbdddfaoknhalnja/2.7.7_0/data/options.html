@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I don't care about cookies Options</title>
+
+	<style>
+		body {padding:20px}
+		label {display:block; width:800px; padding:0 0 20px}
+		textarea {width:100%; height:150px}
+  </style>
+</head>
+<body>
+
+<label>
+	<input type="checkbox" id="contextmenu">
+	Enable context menu options
+</label>
+
+<label>
+	List of all whitelisted websites, one website per line:<br />
+	<textarea id="whitelist"></textarea>
+</label>
+
+<input type="button" id="save" value="Save" style="width:100px" /> <div id="status_saved" style="display:none; color:green; padding-left:5px">Options saved.</div>
+
+<script src="options.js"></script>
+
+</body>
+</html>

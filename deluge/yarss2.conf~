@@ -1,0 +1,13 @@
+{
+  "file": 8, 
+  "format": 1
+}{
+  "cookies": {}, 
+  "subscriptions": {}, 
+  "email_messages": {}, 
+  "rssfeeds": {}, 
+  "general": {
+    "show_log_in_gui": true
+  }, 
+  "email_configurations": {}
+}

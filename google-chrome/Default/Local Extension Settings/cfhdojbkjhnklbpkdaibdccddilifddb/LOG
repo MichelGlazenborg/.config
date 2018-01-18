@@ -1,0 +1,26 @@
+2018/01/18-10:00:59.184 8257 Reusing MANIFEST /home/mglazenborg/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2018/01/18-10:00:59.184 8257 Recovering log #906
+2018/01/18-10:00:59.185 8257 Reusing old log /home/mglazenborg/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000906.log 
+2018/01/18-10:01:59.639 15068 Level-0 table #910: started
+2018/01/18-10:01:59.686 15068 Level-0 table #910: 3087070 bytes OK
+2018/01/18-10:01:59.689 15068 Delete type=0 #906
+2018/01/18-10:02:15.479 15068 Level-0 table #912: started
+2018/01/18-10:02:15.533 15068 Level-0 table #912: 3087640 bytes OK
+2018/01/18-10:02:15.536 15068 Delete type=0 #909
+2018/01/18-11:01:59.688 15068 Level-0 table #914: started
+2018/01/18-11:01:59.737 15068 Level-0 table #914: 3087138 bytes OK
+2018/01/18-11:01:59.741 15068 Delete type=0 #911
+2018/01/18-11:01:59.742 15068 Compacting 4@0 + 2@1 files
+2018/01/18-11:01:59.839 15068 Generated table #915@0: 1 keys, 3086536 bytes
+2018/01/18-11:01:59.844 15068 Generated table #916@0: 2 keys, 1202 bytes
+2018/01/18-11:01:59.844 15068 Compacted 4@0 + 2@1 files => 3087738 bytes
+2018/01/18-11:01:59.849 15068 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/01/18-11:01:59.849 15068 Delete type=2 #912
+2018/01/18-11:01:59.849 15068 Delete type=2 #914
+2018/01/18-11:01:59.850 15068 Delete type=2 #907
+2018/01/18-11:01:59.850 15068 Delete type=2 #905
+2018/01/18-11:01:59.850 15068 Delete type=2 #910
+2018/01/18-11:01:59.850 15068 Delete type=2 #904
+2018/01/18-11:03:42.506 15068 Level-0 table #918: started
+2018/01/18-11:03:42.568 15068 Level-0 table #918: 3087640 bytes OK
+2018/01/18-11:03:42.572 15068 Delete type=0 #913

@@ -1,0 +1,18 @@
+{
+   "background": {
+      "scripts": [ "js/functions.js", "js/PoolDownloaderBase.js", "js/DanbooruPoolDownloader.js", "js/E621PoolDownloader.js", "js/InkbunnyPoolDownloader.js", "js/background.js" ]
+   },
+   "description": "Download an entire pool from a Booru site.",
+   "icons": {
+      "128": "img/bs_icon_128.png",
+      "16": "img/bs_icon_16.png",
+      "48": "img/bs_icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjLIf2DPqiPv13jfqLko/K/inCmO+g/bT6N4iYJyjxKTKocVgRGpvk4zhnd8P2hnI7fBFHiPPBPuieRSDs+YvKBpI5+wRhxr5MbVeVXYd12qUdjudaa183shg1yeVpZ1DOH/saPJDUwiAcNnMxplemKateBmOl8JI37va1BcIaXAorTWSOTqckfNS3FgXdLFnG0TgDz0uVnwKaDUj7D9XOZL1+KhgQyCFx4dfCIBjlsJAGpnHs5OHjc9aoven2Kgj2l+DSQda/i1KtFaK6nU+TwHFHQs2bC2mwjZodBqqQOxUtcUy6o1SxsviCBAxZldtU7i01k8TkAFXeHEH/Qg46QIDAQAB",
+   "manifest_version": 2,
+   "name": "Booru Pool Downloader",
+   "permissions": [ "contextMenus", "downloads", "storage", "*://danbooru.donmai.us/*", "*://e621.net/*", "*://inkbunny.net/*" ],
+   "short_name": "Booru PD",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3"
+}

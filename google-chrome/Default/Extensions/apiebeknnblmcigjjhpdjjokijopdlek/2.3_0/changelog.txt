@@ -1,0 +1,22 @@
+Changelog
+
+Version 2.3
+* Updated to work with HTTP sites, not only HTTPS
+
+Version 2.2
+* Added site Danbooru
+
+Version 2.1
+* Fixed critical issue with pool downloading
+* Removed unnecessary logs
+
+Version 2.0
+* Added multi-site support
+* Added site Inkbunny.net
+
+Version 1.1
+* All pool pages are now downloaded
+* Fixed issue with files trying to save with invalid name, causing certain pools to not download
+
+Version 1.0
+* Created initial system

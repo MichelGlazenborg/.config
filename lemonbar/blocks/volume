@@ -1,0 +1,57 @@
+#!/bin/sh
+# OLDCOLOR = 77777794A5BC  3E4958
+
+CARD="${1:-0}"
+MIXER="${2:-default}"
+trap "echo Booh!" SIGHUP
+mute=$(amixer -c $CARD -M -D $MIXER get Master | grep Playback | grep -q off && echo 1 || echo 0)
+if [ $mute -eq 1 ]
+then
+	echo "\uf028 %{F#67727E}%{T4}%{T-}━━━━━━━━━━━"
+else
+	# echo "━━━━━━━▊%{F#67727E}━━━━━━━"
+	pc=$(amixer -c $CARD -M -D $MIXER get Master |
+	echo $(sed -n "s/^[^:]*: Playback [0-9]* \[\([0-9]*%\)\] .*/$symbol \1/p" | head -n1))
+	pc=${pc::-1}
+	if [ $pc -gt 100 ]
+	then
+		echo "\uf028  %{F#D1121F}━━━━━━━━━━%{T4}%{T-}%{F#67727E}"
+	elif [ $pc -eq 100 ]
+	then
+		echo "\uf028  %{F#FFFFFF}━━━━━━━━━━%{T4}%{T-}%{F#67727E}"
+	elif [ $pc -eq 90 ]
+	then
+		echo "\uf028  %{F#FFFFFF}━━━━━━━━━%{T4}%{T-}%{F#67727E}━%{F#67727E}"
+	elif [ $pc -eq 80 ]
+	then
+		echo "\uf028  %{F#FFFFFF}━━━━━━━━%{T4}%{T-}%{F#67727E}━━%{F#67727E}"
+	elif [ $pc -eq 70 ]
+	then
+		echo "\uf028  %{F#FFFFFF}━━━━━━━%{T4}%{T-}%{F#67727E}━━━%{F#67727E}"
+	elif [ $pc -eq 60 ]
+	then
+		echo "\uf028  %{F#FFFFFF}━━━━━━%{T4}%{T-}%{F#67727E}━━━━%{F#67727E}"
+	elif [ $pc -eq 50 ]
+	then
+		echo "\uf028  %{F#FFFFFF}━━━━━%{T4}%{T-}%{F#67727E}━━━━━%{F#67727E}"
+	elif [ $pc -eq 40 ]
+	then
+		echo "\uf028  %{F#FFFFFF}━━━━%{T4}%{T-}%{F#67727E}━━━━━━%{F#67727E}"
+	elif [ $pc -eq 30 ]
+	then
+		echo "\uf028  %{F#FFFFFF}━━━%{T4}%{T-}%{F#67727E}━━━━━━━%{F#67727E}"
+	elif [ $pc -eq 20 ]
+	then
+		echo "\uf028  %{F#FFFFFF}━━%{T4}%{T-}%{F#67727E}━━━━━━━━%{F#67727E}"
+	elif [ $pc -eq 10 ]
+	then
+		echo "\uf028  %{F#FFFFFF}━%{T4}%{T-}%{F#67727E}━━━━━━━━━%{F#67727E}"
+	else
+		echo "\uf028  %{T4}%{T-}%{F#67727E}━━━━━━━━━━%{F#67727E}"
+	fi
+fi
+
+#amixer -c $CARD -M -D $MIXER get Master |
+#echo $(sed -n "s/^[^:]*: Playback [0-9]* \[\([0-9]*%\)\] .*/$symbol \1/p" | head -n1)
+#echo ""
+#echo $(amixer -c $CARD -M -D $MIXER get Master | grep Playback | grep -q off && echo "#F5A3A3" || echo "#EEEEEE")	

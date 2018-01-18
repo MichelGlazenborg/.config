@@ -1,0 +1,22 @@
+2018/01/18-10:00:59.334 8257 Reusing MANIFEST /home/mglazenborg/.config/google-chrome/Default/Local Extension Settings/oofnbdifeelbaidfgpikinijekkjcicg/MANIFEST-000001
+2018/01/18-10:00:59.335 8257 Recovering log #247
+2018/01/18-10:00:59.335 8257 Reusing old log /home/mglazenborg/.config/google-chrome/Default/Local Extension Settings/oofnbdifeelbaidfgpikinijekkjcicg/000247.log 
+2018/01/18-10:08:25.262 15068 Level-0 table #251: started
+2018/01/18-10:08:25.324 15068 Level-0 table #251: 2357142 bytes OK
+2018/01/18-10:08:25.327 15068 Delete type=0 #247
+2018/01/18-10:08:25.327 15068 Compacting 4@0 + 3@1 files
+2018/01/18-10:08:25.384 15068 Generated table #252@0: 18 keys, 2853150 bytes
+2018/01/18-10:08:25.457 15068 Generated table #253@0: 17 keys, 2316566 bytes
+2018/01/18-10:08:25.463 15068 Generated table #254@0: 1 keys, 75584 bytes
+2018/01/18-10:08:25.463 15068 Compacted 4@0 + 3@1 files => 5245300 bytes
+2018/01/18-10:08:25.467 15068 compacted to: files[ 0 3 1 0 0 0 0 ]
+2018/01/18-10:08:25.468 15068 Delete type=2 #241
+2018/01/18-10:08:25.468 15068 Delete type=2 #239
+2018/01/18-10:08:25.469 15068 Delete type=2 #246
+2018/01/18-10:08:25.469 15068 Delete type=2 #240
+2018/01/18-10:08:25.470 15068 Delete type=2 #243
+2018/01/18-10:08:25.470 15068 Delete type=2 #251
+2018/01/18-10:08:25.471 15068 Delete type=2 #248
+2018/01/18-10:32:59.256 15068 Level-0 table #256: started
+2018/01/18-10:32:59.310 15068 Level-0 table #256: 2510666 bytes OK
+2018/01/18-10:32:59.315 15068 Delete type=0 #250

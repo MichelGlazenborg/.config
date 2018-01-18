@@ -1,0 +1,43 @@
+2018/01/18-10:00:59.796 8254 Reusing MANIFEST /home/mglazenborg/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2018/01/18-10:00:59.796 8254 Recovering log #79
+2018/01/18-10:00:59.797 8254 Reusing old log /home/mglazenborg/.config/google-chrome/Default/Session Storage/000079.log 
+2018/01/18-10:15:37.535 15068 Level-0 table #83: started
+2018/01/18-10:15:37.539 15068 Level-0 table #83: 19086 bytes OK
+2018/01/18-10:15:37.542 15068 Delete type=0 #79
+2018/01/18-10:54:20.291 15068 Level-0 table #85: started
+2018/01/18-10:54:20.292 19446 Current memtable full; waiting...
+2018/01/18-10:54:20.299 15068 Level-0 table #85: 82560 bytes OK
+2018/01/18-10:54:20.303 15068 Delete type=0 #82
+2018/01/18-10:54:20.304 15068 Level-0 table #87: started
+2018/01/18-10:54:20.309 15068 Level-0 table #87: 46461 bytes OK
+2018/01/18-10:54:20.314 15068 Delete type=0 #84
+2018/01/18-10:54:20.314 15068 Compacting 4@0 + 1@1 files
+2018/01/18-10:54:20.323 15068 Generated table #88@0: 703 keys, 89890 bytes
+2018/01/18-10:54:20.323 15068 Compacted 4@0 + 1@1 files => 89890 bytes
+2018/01/18-10:54:20.325 15068 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/01/18-10:54:20.325 15068 Delete type=2 #83
+2018/01/18-10:54:20.325 15068 Delete type=2 #80
+2018/01/18-10:54:20.325 15068 Delete type=2 #87
+2018/01/18-10:54:20.325 15068 Delete type=2 #78
+2018/01/18-10:54:20.325 15068 Delete type=2 #85
+2018/01/18-10:54:32.675 15068 Level-0 table #90: started
+2018/01/18-10:54:32.684 15068 Level-0 table #90: 81277 bytes OK
+2018/01/18-10:54:32.689 15068 Delete type=0 #86
+2018/01/18-10:54:34.274 15068 Level-0 table #92: started
+2018/01/18-10:54:34.283 15068 Level-0 table #92: 74673 bytes OK
+2018/01/18-10:54:34.286 15068 Delete type=0 #89
+2018/01/18-11:08:29.690 15068 Level-0 table #94: started
+2018/01/18-11:08:29.697 15068 Level-0 table #94: 44607 bytes OK
+2018/01/18-11:08:29.700 15068 Delete type=0 #91
+2018/01/18-11:43:32.935 15068 Level-0 table #96: started
+2018/01/18-11:43:32.942 15068 Level-0 table #96: 15132 bytes OK
+2018/01/18-11:43:32.947 15068 Delete type=0 #93
+2018/01/18-11:43:32.947 15068 Compacting 4@0 + 1@1 files
+2018/01/18-11:43:32.959 15068 Generated table #97@0: 893 keys, 254773 bytes
+2018/01/18-11:43:32.959 15068 Compacted 4@0 + 1@1 files => 254773 bytes
+2018/01/18-11:43:32.966 15068 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/01/18-11:43:32.966 15068 Delete type=2 #88
+2018/01/18-11:43:32.966 15068 Delete type=2 #96
+2018/01/18-11:43:32.966 15068 Delete type=2 #94
+2018/01/18-11:43:32.966 15068 Delete type=2 #92
+2018/01/18-11:43:32.966 15068 Delete type=2 #90
